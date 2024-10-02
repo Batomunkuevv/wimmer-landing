@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title</title>
+  <meta name="description" content="Description" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__body">
+          <div class="site-header__logo">
+            <img width="72" height="72" src="images/logo.svg" alt="Logo" title="Logo" />
+          </div>
+          <nav class="site-header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a data-anchor href="#about" class="menu__link">Wer bin ich?</a>
+              </li>
+              <li class="menu__item">
+                <a data-anchor href="#achievements" class="menu__link">Meine Errungenschaften</a>
+              </li>
+              <li class="menu__item">
+                <a data-anchor href="#history" class="menu__link">Meine Geschichte</a>
+              </li>
+            </ul>
+          </nav>
+          <a data-anchor href="#contacts" class="site-header__button button"> Jetzt kontaktieren </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="site-page">
+      <section id="about" class="hero">
+        <div class="container">
+          <div class="hero__body">
+            <div class="hero__content">
+              <p class="hero__post">Gründer der Firma</p>
+              <h1 class="hero__title">
+                <span class="hero__title-icon">
+                  <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.5747 21.5333L9.28307 7.18332C9.08863 6.98887 8.89418 6.89165 8.69974 6.89165C8.50529 6.89165 8.31085 6.98887 8.11641 7.18332C7.92196 7.37776 7.82474 7.57221 7.82474 7.76665C7.82474 7.9611 7.92196 8.15554 8.11641 8.34998L22.4081 22.6417L23.5747 21.5333ZM18.2664 26.7833L5.60807 14.125C5.41363 13.9305 5.21918 13.8333 5.02474 13.8333C4.8303 13.8333 4.63585 13.9305 4.44141 14.125C4.24696 14.3194 4.14974 14.5139 4.14974 14.7083C4.14974 14.9028 4.24696 15.0972 4.44141 15.2917L17.1581 27.95L18.2664 26.7833ZM36.4081 36.2917C39.4025 33.2972 40.89 29.7194 40.8706 25.5583C40.8511 21.3972 39.3247 17.8 36.2914 14.7667L29.6997 8.17498L27.7164 10.2167C27.2497 10.6833 26.8997 11.1986 26.6664 11.7625C26.4331 12.3264 26.297 12.9389 26.2581 13.6L17.8581 5.19998C17.6636 5.00554 17.4692 4.90832 17.2747 4.90832C17.0803 4.90832 16.8859 5.00554 16.6914 5.19998C16.497 5.39443 16.3997 5.58887 16.3997 5.78332C16.3997 5.97776 16.497 6.17221 16.6914 6.36665L26.8414 16.5167L30.1081 19.8417L28.9414 21.0083C27.5414 22.4083 26.8414 24.1 26.8414 26.0833C26.8414 28.0667 27.5414 29.7583 28.9414 31.1583L29.5247 31.7417L30.6331 30.575L30.1081 29.9917C29.0192 28.9028 28.4747 27.6 28.4747 26.0833C28.4747 24.5667 29.0192 23.2639 30.1081 22.175L31.2164 21.0667C31.5664 20.7167 31.7414 20.2986 31.7414 19.8125C31.7414 19.3264 31.5664 18.9083 31.2164 18.5583L28.8247 16.225C28.1636 15.5639 27.8331 14.7569 27.8331 13.8042C27.8331 12.8514 28.1636 12.0444 28.8247 11.3833L29.6997 10.5083L35.1247 15.875C37.8081 18.5583 39.1789 21.7667 39.2372 25.5C39.2956 29.2333 37.9831 32.4417 35.2997 35.125C32.6164 37.8083 29.3789 39.15 25.5872 39.15C21.7956 39.15 18.5581 37.8083 15.8747 35.125L3.9164 23.1667C3.72196 22.9722 3.52752 22.875 3.33307 22.875C3.13863 22.875 2.94418 22.9722 2.74974 23.1667C2.55529 23.3611 2.45807 23.5555 2.45807 23.75C2.45807 23.9444 2.55529 24.1389 2.74974 24.3333L14.7664 36.2917C17.7997 39.325 21.4067 40.8417 25.5872 40.8417C29.7678 40.8417 33.3747 39.325 36.4081 36.2917ZM12.5497 43.9333L12.6081 42.3C9.57474 42.3 6.99835 41.2403 4.87891 39.1208C2.75946 37.0014 1.69974 34.425 1.69974 31.3917L0.0664062 31.45C0.0664062 34.9111 1.28168 37.8569 3.71224 40.2875C6.1428 42.718 9.08863 43.9333 12.5497 43.9333ZM43.9331 12.55C43.9331 9.08887 42.7178 6.14304 40.2872 3.71248C37.8567 1.28193 34.9109 0.0666504 31.4497 0.0666504L31.3914 1.69998C34.4247 1.69998 37.0011 2.75971 39.1206 4.87915C41.24 6.9986 42.2997 9.57498 42.2997 12.6083L43.9331 12.55Z" fill="#9E7B2F" />
+                    <path d="M43.9331 12.55C43.9331 9.08887 42.7178 6.14304 40.2872 3.71248C37.8567 1.28193 34.9109 0.0666504 31.4497 0.0666504L31.3914 1.69998C34.4247 1.69998 37.0011 2.75971 39.1206 4.87915C41.24 6.9986 42.2997 9.57498 42.2997 12.6083L43.9331 12.55ZM36.4081 36.2917C39.4025 33.2972 40.89 29.7194 40.8706 25.5583C40.8511 21.3972 39.3247 17.8 36.2914 14.7667L30.8664 9.34165L29.6997 10.5083C28.922 11.2861 28.4942 12.2097 28.4164 13.2792C28.3386 14.3486 28.6692 15.2528 29.4081 15.9917L31.6247 18.15C31.9747 18.5 32.1497 18.918 32.1497 19.4042C32.1497 19.8903 31.9747 20.3083 31.6247 20.6583L31.3331 20.95C30.2831 22 29.7581 23.2639 29.7581 24.7417C29.7581 26.2194 30.2831 27.4833 31.3331 28.5333L32.4997 29.7L31.3331 30.8083L30.1664 29.7C28.8053 28.3389 28.1247 26.6861 28.1247 24.7417C28.1247 22.7972 28.8053 21.1444 30.1664 19.7833L30.5164 19.375L27.7747 16.6333C27.4636 16.2444 27.2303 15.8458 27.0747 15.4375C26.9192 15.0292 26.8025 14.5917 26.7247 14.125L17.8581 5.19998C17.6636 5.00554 17.4692 4.90832 17.2747 4.90832C17.0803 4.90832 16.8859 5.00554 16.6914 5.19998C16.497 5.39443 16.3997 5.58887 16.3997 5.78332C16.3997 5.97776 16.497 6.17221 16.6914 6.36665L26.4331 16.1083L22.2914 20.25L9.28307 7.18332C9.08863 6.98887 8.89418 6.89165 8.69974 6.89165C8.50529 6.89165 8.31085 6.98887 8.11641 7.18332C7.92196 7.37776 7.82474 7.57221 7.82474 7.76665C7.82474 7.9611 7.92196 8.15554 8.11641 8.34998L21.1831 21.3583L17.0414 25.5L5.60807 14.125C5.41363 13.9305 5.21918 13.8333 5.02474 13.8333C4.8303 13.8333 4.63585 13.9305 4.44141 14.125C4.24696 14.3194 4.14974 14.5139 4.14974 14.7083C4.14974 14.9028 4.24696 15.0972 4.44141 15.2917L15.8747 26.6667L11.6747 30.8667L3.9164 23.1667C3.72196 22.9722 3.52752 22.875 3.33307 22.875C3.13863 22.875 2.94418 22.9722 2.74974 23.1667C2.55529 23.3611 2.45807 23.5555 2.45807 23.75C2.45807 23.9444 2.55529 24.1389 2.74974 24.3333L14.7664 36.2917C17.7997 39.325 21.4067 40.8417 25.5872 40.8417C29.7678 40.8417 33.3747 39.325 36.4081 36.2917ZM12.5497 43.9333L12.6081 42.3C9.57474 42.3 6.99835 41.2403 4.87891 39.1208C2.75946 37.0014 1.69974 34.425 1.69974 31.3917L0.0664062 31.45C0.0664062 34.9111 1.28168 37.8569 3.71224 40.2875C6.1428 42.718 9.08863 43.9333 12.5497 43.9333Z" fill="#9E7B2F" />
+                  </svg>
+                </span>
+                Guten Tag,
+                <br />
+                ich bin Michael Wimmer, der Gr&uuml;nder von Wimmer.
+              </h1>
+              <p class="hero__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore
+              </p>
+              <a data-anchor href="#contacts" class="hero__button button button--black">Zur Begrüßung</a>
+            </div>
+            <div class="hero__image">
+              <picture>
+                <source srcset="images/hero/image@2x.webp" type="image/webp" media="(min-resolution: 2dppx)" />
+                <source srcset="images/hero/image.webp" type="image/webp" />
+                <source srcset="images/hero/image@2x.png" media="(min-resolution: 2dppx)" />
+                <img src="images/hero/image.png" alt="Image" title="Image" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="achievements">
+        <div class="container">
+          <h2 class="achievements__title visually-hidden">Meine Errungenschaften</h2>
+          <dl class="achievements__list">
+            <div class="achievements__item">
+              <div class="achievements__item-number">
+                <dd class="achievements__item-number-value">3 000</dd>
+                <div class="achievements__item-number-symbol">M</div>
+              </div>
+              <dt class="achievements__item-description">Zufriedene Kunden</dt>
+            </div>
+            <div class="achievements__item">
+              <div class="achievements__item-number">
+                <dd class="achievements__item-number-value">1 00</dd>
+                <div classa="achievements__item-number-symbol">T</div>
+              </div>
+              <dt class="achievements__item-description">Verkaufte Immobilien</dt>
+            </div>
+            <div class="achievements__item">
+              <div class="achievements__item-number">
+                <dd class="achievements__item-number-value">95</dd>
+                <div class="achievements__item-number-symbol">%</div>
+              </div>
+              <dt class="achievements__item-description">Abgeschlossene Trades innerhalb eines Monats</dt>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="history" class="history">
+        <div class="container">
+          <h2 class="history__title">Meine Geschichte</h2>
+          <div class="history__body">
+            <div class="history__image">
+              <picture data-lozad>
+                <source srcset="images/history/image@2x.webp" type="image/webp" media="(min-resolution: 2dppx)" />
+                <source srcset="images/history/image.webp" type="image/webp" />
+                <source srcset="images/history/image@2x.png" media="(min-resilution: 2dppx)" />
+                <source srcset="images/history/image.png" />
+                <img src="images/placeholder.png" alt="Image" title="Image" />
+              </picture>
+            </div>
+            <div class="history__content">
+              <h3>Bildunterschrift</h3>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+                inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+              </p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
+                <li>Neque porro quisquam est, qui dolorem ipsum quia dolor sit am</li>
+                <li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</li>
+              </ul>
+              <p>
+                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete
+                account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one
+                rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally
+                encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself,
+                because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <footer id="contacts" class="site-footer">
+      <div class="container">
+        <div class="site-footer__body">
+          <div class="site-footer__left">
+            <div class="site-footer__logo">
+              <img width="264" height="108" data-lozad src="images/placeholder.png" data-src="images/logo-with-descriptor.svg" alt="Logo" title="Logo" />
+            </div>
+            <ul class="site-footer__socials">
+              <li class="site-footer__social">
+                <a href="#" class="site-footer__social-link">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.2399 1.91992C5.65271 1.91992 1.91992 5.65271 1.91992 10.2399V21.7599C1.91992 26.3471 5.65271 30.0799 10.2399 30.0799H21.7599C26.3471 30.0799 30.0799 26.3471 30.0799 21.7599V10.2399C30.0799 5.65271 26.3471 1.91992 21.7599 1.91992H10.2399ZM10.2399 3.19992H21.7599C25.6553 3.19992 28.7999 6.34457 28.7999 10.2399V21.7599C28.7999 25.6553 25.6553 28.7999 21.7599 28.7999H10.2399C6.34457 28.7999 3.19992 25.6553 3.19992 21.7599V10.2399C3.19992 6.34457 6.34457 3.19992 10.2399 3.19992ZM23.6799 7.03992C23.3404 7.03992 23.0149 7.17478 22.7748 7.41483C22.5348 7.65487 22.3999 7.98045 22.3999 8.31992C22.3999 8.6594 22.5348 8.98497 22.7748 9.22502C23.0149 9.46507 23.3404 9.59992 23.6799 9.59992C24.0194 9.59992 24.345 9.46507 24.585 9.22502C24.8251 8.98497 24.9599 8.6594 24.9599 8.31992C24.9599 7.98045 24.8251 7.65487 24.585 7.41483C24.345 7.17478 24.0194 7.03992 23.6799 7.03992ZM15.9999 8.95992C12.1194 8.95992 8.95992 12.1194 8.95992 15.9999C8.95992 19.8804 12.1194 23.0399 15.9999 23.0399C19.8804 23.0399 23.0399 19.8804 23.0399 15.9999C23.0399 12.1194 19.8804 8.95992 15.9999 8.95992ZM15.9999 10.2399C19.1887 10.2399 21.7599 12.8112 21.7599 15.9999C21.7599 19.1887 19.1887 21.7599 15.9999 21.7599C12.8112 21.7599 10.2399 19.1887 10.2399 15.9999C10.2399 12.8112 12.8112 10.2399 15.9999 10.2399Z" fill="currentColor" />
+                  </svg>
+                </a>
+              </li>
+              <li class="site-footer__social">
+                <a href="#" class="site-footer__social-link">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.75957 2.56006C3.99988 2.56006 2.55957 4.00037 2.55957 5.76006V26.2401C2.55957 27.9997 3.99988 29.4401 5.75957 29.4401H16.5321C16.6012 29.4515 16.6717 29.4515 16.7408 29.4401H20.3721C20.4412 29.4515 20.5117 29.4515 20.5808 29.4401H26.2396C27.9993 29.4401 29.4396 27.9997 29.4396 26.2401V5.76006C29.4396 4.00037 27.9993 2.56006 26.2396 2.56006H5.75957ZM5.75957 3.84006H26.2396C27.3074 3.84006 28.1596 4.69223 28.1596 5.76006V26.2401C28.1596 27.3079 27.3074 28.1601 26.2396 28.1601H21.1196V19.2001H23.5646L24.4608 14.7201H21.1196V13.4401C21.1196 13.0833 21.1535 13.0554 21.2733 12.9776C21.3931 12.8997 21.7633 12.8001 22.3996 12.8001H24.3196V9.19631L23.9546 9.02256C23.9546 9.02256 22.4845 8.32006 20.4796 8.32006C19.0396 8.32006 17.8566 8.89379 17.0996 9.84006C16.3426 10.7863 15.9996 12.0534 15.9996 13.4401V14.7201H14.0796V19.2001H15.9996V28.1601H5.75957C4.69174 28.1601 3.83957 27.3079 3.83957 26.2401V5.76006C3.83957 4.69223 4.69174 3.84006 5.75957 3.84006ZM20.4796 9.60006C21.8102 9.60006 22.6475 9.89347 23.0396 10.0488V11.5201H22.3996C21.663 11.5201 21.0728 11.581 20.5758 11.9038C20.0788 12.2266 19.8396 12.8394 19.8396 13.4401V16.0001H22.8983L22.5146 17.9201H19.8396V28.1601H17.2796V17.9201H15.3596V16.0001H17.2796V13.4401C17.2796 12.2667 17.5766 11.2938 18.0996 10.6401C18.6226 9.98633 19.3596 9.60006 20.4796 9.60006Z" fill="currentColor" />
+                  </svg>
+                </a>
+              </li>
+              <li class="site-footer__social">
+                <a href="#" class="site-footer__social-link">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.75957 2.56006C3.99988 2.56006 2.55957 4.00037 2.55957 5.76006V26.2401C2.55957 27.9997 3.99988 29.4401 5.75957 29.4401H26.2396C27.9993 29.4401 29.4396 27.9997 29.4396 26.2401V5.76006C29.4396 4.00037 27.9993 2.56006 26.2396 2.56006H5.75957ZM5.75957 3.84006H26.2396C27.3074 3.84006 28.1596 4.69223 28.1596 5.76006V26.2401C28.1596 27.3079 27.3074 28.1601 26.2396 28.1601H5.75957C4.69174 28.1601 3.83957 27.3079 3.83957 26.2401V5.76006C3.83957 4.69223 4.69174 3.84006 5.75957 3.84006ZM8.95957 7.04756C8.25863 7.04756 7.62787 7.25707 7.16082 7.65006C6.69377 8.04305 6.40707 8.63015 6.40707 9.25881C6.40707 10.4538 7.44359 11.3854 8.76207 11.4776L8.76457 11.4788C8.8274 11.5002 8.8932 11.5116 8.95957 11.5126C10.4143 11.5126 11.5121 10.4936 11.5121 9.25881C11.512 9.24755 11.5115 9.23629 11.5108 9.22506C11.4457 8.00891 10.3615 7.04756 8.95957 7.04756ZM8.95957 8.31256C9.8506 8.31256 10.2024 8.71048 10.2408 9.27506C10.233 9.82306 9.89403 10.2476 8.95957 10.2476C8.07291 10.2476 7.67207 9.79348 7.67207 9.25881C7.67207 8.99147 7.76962 8.79001 7.97457 8.61756C8.17952 8.44511 8.50851 8.31256 8.95957 8.31256ZM7.03957 12.1601C6.86984 12.1601 6.70706 12.2275 6.58704 12.3475C6.46702 12.4675 6.39959 12.6303 6.39957 12.8001V24.9601C6.39959 25.1298 6.46702 25.2926 6.58704 25.4126C6.70706 25.5326 6.86984 25.6 7.03957 25.6001H10.8796C11.0493 25.6 11.2121 25.5326 11.3321 25.4126C11.4521 25.2926 11.5196 25.1298 11.5196 24.9601V21.2063V12.8001C11.5196 12.6303 11.4521 12.4675 11.3321 12.3475C11.2121 12.2275 11.0493 12.1601 10.8796 12.1601H7.03957ZM12.7996 12.1601C12.6298 12.1601 12.4671 12.2275 12.347 12.3475C12.227 12.4675 12.1596 12.6303 12.1596 12.8001V24.9601C12.1596 25.1298 12.227 25.2926 12.347 25.4126C12.4671 25.5326 12.6298 25.6 12.7996 25.6001H16.6396C16.8093 25.6 16.9721 25.5326 17.0921 25.4126C17.2121 25.2926 17.2796 25.1298 17.2796 24.9601V18.5601C17.2796 18.0291 17.4245 17.5009 17.6796 17.1551C17.9347 16.8092 18.2565 16.6017 18.8683 16.6126C19.4992 16.6234 19.8332 16.8395 20.0858 17.1788C20.3385 17.5181 20.4796 18.0267 20.4796 18.5601V24.9601C20.4796 25.1298 20.547 25.2926 20.667 25.4126C20.7871 25.5326 20.9498 25.6 21.1196 25.6001H24.9596C25.1293 25.6 25.2921 25.5326 25.4121 25.4126C25.5321 25.2926 25.5996 25.1298 25.5996 24.9601V18.0876C25.5996 16.1922 25.0382 14.6908 24.0758 13.6751C23.1135 12.6593 21.775 12.1601 20.3596 12.1601C19.0143 12.1601 17.9905 12.6112 17.2796 13.0713V12.8001C17.2796 12.6303 17.2121 12.4675 17.0921 12.3475C16.9721 12.2275 16.8093 12.1601 16.6396 12.1601H12.7996ZM7.67957 13.4401H10.2396V21.2063V24.3201H7.67957V13.4401ZM13.4396 13.4401H15.9996V14.4388C15.9996 14.573 16.0418 14.7038 16.1203 14.8127C16.1987 14.9216 16.3094 15.0031 16.4366 15.0456C16.5639 15.0882 16.7013 15.0897 16.8295 15.0499C16.9577 15.0101 17.0701 14.931 17.1508 14.8238C17.1508 14.8238 18.1559 13.4401 20.3596 13.4401C21.4817 13.4401 22.444 13.8129 23.1471 14.5551C23.8502 15.2972 24.3196 16.4405 24.3196 18.0876V24.3201H21.7596V18.5601C21.7596 17.8134 21.5807 17.0414 21.1133 16.4138C20.646 15.7862 19.8599 15.3492 18.8908 15.3326C17.9167 15.3153 17.118 15.7613 16.6496 16.3963C16.1812 17.0313 15.9996 17.811 15.9996 18.5601V24.3201H13.4396V13.4401Z" fill="currentColor" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <form action="#" class="site-footer__form">
+            <div class="site-footer__form-title">Kontaktieren Sie uns</div>
+            <div class="site-footer__form-wrapper">
+              <div class="site-footer__form-checkboxes">
+                <label class="site-footer__form-checkbox checkbox">
+                  <input type="checkbox" name="call-me" class="checkbox__input visually-hidden" />
+                  <div class="checkbox__indicator"></div>
+                  <div class="checkbox__text">Ich möchte angerufen werden</div>
+                </label>
+                <label class="site-footer__form-checkbox checkbox">
+                  <input type="checkbox" name="write-whatsapp" class="checkbox__input visually-hidden" />
+                  <div class="checkbox__indicator"></div>
+                  <div class="checkbox__text">Ich möchte über Whatsapp angeschrieben werden</div>
+                </label>
+              </div>
+              <div class="site-footer__form-body">
+                <div class="site-footer__form-item">
+                  <input type="text" placeholder="E-mail/Telefon" class="site-footer__form-input input" />
+                </div>
+                <button class="site-footer__form-button button">Senden</button>
+              </div>
+            </div>
+          </form>
+          <div class="site-footer__contacts">
+            <div class="site-footer__contacts-title">Kontakt</div>
+            <ul class="site-footer__contacts-list">
+              <li class="site-footer__contact">
+                <a href="mailto:pochtaname@gmail.com" class="site-footer__contact-link">
+                  <span class="site-footer__contact-icon">
+                    <img width="24" height="24" data-lozad src="images/placeholder.png" data-src="images/icons/mail.svg" alt="Mail" title="Mail" />
+                  </span>
+                  <span class="site-footer__contact-text">pochtaname@gmail.com</span>
+                </a>
+              </li>
+              <li class="site-footer__contact">
+                <a href="tel:+49888778899" class="site-footer__contact-link">
+                  <span class="site-footer__contact-icon">
+                    <img width="24" height="24" data-lozad src="images/placeholder.png" data-src="images/icons/phone.svg" alt="Phone" title="Phone" />
+                  </span>
+                  <span class="site-footer__contact-text">+49 888 77 88 99</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="site-footer__terms">
+          <li class="site-footer__terms-item">
+            <a href="#" class="site-footer__terms-link">Impressum</a>
+          </li>
+          <li class="site-footer__terms-item">
+            <a href="#" class="site-footer__terms-link">Datenschutz</a>
+          </li>
+          <li class="site-footer__terms-item">
+            <a href="#" class="site-footer__terms-link">Cookie</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+  <script defer src="./js/lozad.min.js"></script>
+  <script defer src="./js/script.js"></script>
+</body>
+
+</html>
