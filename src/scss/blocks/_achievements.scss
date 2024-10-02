@@ -1,0 +1,100 @@
+.achievements {
+    &__title {
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+        text-align: center;
+
+        @media (max-width: 576px) {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+
+    &__item {
+        padding-bottom: 11px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        @media (max-width: 576px) {
+            padding-bottom: 24px;
+            border-bottom: 1px solid #bcbcbc;
+        }
+
+        &:not(:nth-child(3n)) {
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: calc(100% + 24px);
+                height: 100%;
+                width: 1px;
+                background: #bcbcbc;
+
+                @media (max-width: 576px) {
+                    display: none;
+                }
+            }
+        }
+
+        &-number {
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            &-value {
+                font-size: 72px;
+                line-height: toProcent(72, 85);
+                font-family: $fontFamilyAccent;
+                color: #000;
+
+                @media (max-width: 992px) {
+                    font-size: 64px;
+                    line-height: 130%;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 40px;
+                }
+
+                @media (max-width: 576px) {
+                    font-size: 48px;
+                }
+            }
+
+            &-symbol {
+                flex: none;
+                font-size: 24px;
+                line-height: toProcent(24, 28);
+                color: #696969;
+
+                @media (max-width: 992px) {
+                    font-size: 20px;
+                    line-height: 130%;
+                }
+
+                @media (max-width: 767px) {
+                    font-size: 16px;
+                    line-height: 130%;
+                }
+            }
+        }
+
+        &-description {
+            @media (max-width: 767px) {
+                font-size: 14px;
+            }
+
+            @media (max-width: 576px) {
+                font-size: 16px;
+            }
+        }
+    }
+}

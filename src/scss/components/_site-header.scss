@@ -1,0 +1,61 @@
+.site-header {
+    padding: 12px 0;
+
+    &__body {
+        display: flex;
+        align-items: center;
+
+        @media(max-width: 992px){
+            justify-content: space-between;
+        }
+    }
+
+    &__logo {
+        width: 72px;
+        aspect-ratio: 1/1;
+        margin-right: auto;
+        flex: none;
+
+        @media (max-width: 1200px) {
+            margin-right: 64px;
+        }
+
+        @media(max-width: 992px){
+            margin-right: 32px;
+        }
+
+        @media(max-width: 576px){
+            width: 64px;
+        }
+    }
+
+    &__menu {
+        margin-top: -4px;
+
+        @media (min-width: 1200px) {
+            margin-right: 113px;
+            margin-left: 32px;
+        }
+
+        @media (max-width: 1200px) {
+            margin-right: auto;
+        }
+
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+
+    &__button {
+        padding-left: 11px;
+        padding-right: 11px;
+
+        @media(max-width: 576px){
+            font-size: 14px;
+        }
+
+        @media(max-width: 370px){
+            font-size: 12px;
+        }
+    }
+}

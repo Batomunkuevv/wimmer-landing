@@ -1,0 +1,35 @@
+.menu {
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        display: block;
+        font-family: $fontFamilyAccent;
+        font-size: 20px;
+        line-height: toProcent(20, 24);
+        position: relative;
+
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: $colorMain;
+            transition: all 0.3s ease-in-out 0s;
+        }
+    }
+}
