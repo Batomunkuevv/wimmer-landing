@@ -15,7 +15,7 @@
       <div class="container">
         <div class="site-header__body">
           <div class="site-header__logo">
-            <img width="72" height="72" src="images/logo.svg" alt="Logo" title="Logo" />
+            <img width="160" height="72" src="images/logo.svg" alt="Logo" title="Logo" />
           </div>
           <nav class="site-header__menu menu">
             <ul class="menu__list">
@@ -35,7 +35,7 @@
       </div>
     </header>
 
-    <div class="site-page">
+    <main class="site-page">
       <section id="about" class="hero">
         <div class="container">
           <div class="hero__body">
@@ -52,6 +52,14 @@
                 <br />
                 ich bin Michael Wimmer, der Gr&uuml;nder von Wimmer.
               </h1>
+              <div class="hero__image hero__image--mobile">
+                <picture>
+                  <source srcset="images/hero/image@2x.webp" type="image/webp" media="(min-resolution: 2dppx)" />
+                  <source srcset="images/hero/image.webp" type="image/webp" />
+                  <source srcset="images/hero/image@2x.png" media="(min-resolution: 2dppx)" />
+                  <img src="images/hero/image.png" alt="Image" title="Image" />
+                </picture>
+              </div>
               <p class="hero__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -59,7 +67,7 @@
               </p>
               <a data-anchor href="#contacts" class="hero__button button button--black">Zur Begrüßung</a>
             </div>
-            <div class="hero__image">
+            <div class="hero__image hero__image--desktop">
               <picture>
                 <source srcset="images/hero/image@2x.webp" type="image/webp" media="(min-resolution: 2dppx)" />
                 <source srcset="images/hero/image.webp" type="image/webp" />
@@ -136,7 +144,7 @@
         </div>
       </section>
 
-    </div>
+    </main>
     <footer id="contacts" class="site-footer">
       <div class="container">
         <div class="site-footer__body">
